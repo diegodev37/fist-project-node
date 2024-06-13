@@ -31,7 +31,7 @@ app.get('/users', (request, response) => {
 
 app.post('/users', (request, response) => {
 
-    const { name, age } = request.body
+   const { name, age } = request.body
 
     const user = { id: uuid.v4(), name, age }
 
